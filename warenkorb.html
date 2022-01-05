@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Beschreibung" content="Webshop vpn Laura">
+    <title>PlantSwap</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <script src="warenkorb_function.js">
+    </script>
+</head>
+<body>
+<header>
+    <div class="flex"><img class="logo" src="logo.png" alt="Logo des Shops"></div>
+    <h1><b>PlantSwap</b></h1>
+    <h2>We swap green.</h2>
+    <a href="index.html">Zurück zur Startseite</a>
+</header>
+<table>
+    <tr>
+        <th>Produkt</th>
+        <th>Einzelpreis</th>
+        <th>Anzahl</th>
+        <th>Gesamtpreis</th>
+    </tr>
+    <tr>
+        <td><a id="easyCare">EasyCare - Pflegepaket</a></td>
+        <td>10.00€</td>
+        <td><label for="easyCare">
+            <input id="pflegepaket" type="number" min="0" max="15" step="1" value="0" onclick="calculate_ec()">
+        </label></td>
+        <td><a id="price_ec"> 0.00€</a></td>
+    </tr>
+    <tr>
+        <td><a id="keepCalm">Keep Calm - und zeige uns deine Pflanze</a></td>
+        <td>20.00€</td>
+        <td><label for="keepCalm">
+            <input id="bleibruhig" type="number" min="0" max="15" step="1" value="0" onclick="calculate_kc()">
+        </label></td>
+        <td><a id="price_kc"> 0.00€</a></td>
+    </tr>
+    <tr>
+        <td><a id="plantSwap">PlantSwap - tausche deine Pflanze ein</a></td>
+        <td>30.00€</td>
+        <td><label for="plantSwap">
+            <input id="pflanzentausch" type="number" min="0" max="15" step="1" value="0" onclick="calculate_ps()">
+        </label></td>
+        <td><a id="price_ps"> 0.00€</a></td>
+    </tr>
+    <tr>
+        <td><a id="plantSwapPremium">PlantSwap - tausch' ein und such' neu aus</a></td>
+        <td>40.00€</td>
+        <td><label for="plantSwap">
+            <input id="pflanzentauschPremium" type="number" min="0" max="15" step="1" value="0" onclick="calculate_psp()">
+        </label></td>
+        <td><a id="price_psp"> 0.00€</a></td>
+    </tr>
+</table>
+
+<div class="warenkorb">
+Dein Gesamtpreis: <a id="gesamt">0.00€</a>
+    <a href="formular.html"><input type="submit"></a>
+</div>
+
+<!--
+<form id="produktliste">
+    <label for="easyCare">
+        EasyCare - Pflegepaket für 10€
+        <input id="pflegepaket" type="number" min="0" max="15" step="1" value="0" onclick="calculate_ec()">
+    </label>
+</form>
+<a id="price_ec"> 0.00€</a>
+-->
+
+
+<footer>
+    <a id="impressum" rel="impressum" href="impressum.html">Impressum  ©2021 by us</a>
+</footer>
+
+</body>
+</html>

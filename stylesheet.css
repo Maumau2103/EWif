@@ -1,0 +1,92 @@
+body{
+    font-family:"lucida console", sans-serif;
+    margin:10pt;
+    background-color: #98d86c;
+    text-align: justify;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkolivegreen;
+}
+
+.logo{
+    width:50%;
+    max-width:500px;
+}
+
+.picture{
+    width:50%;
+    max-width:240px;
+    padding: 24px;
+}
+.picture:hover{
+    background-color: #323232;
+}
+.price{
+    background-color: #323232;
+    font-size: 12pt;
+    text-align: right;
+}
+
+#description{
+    font-family:"lucida console", sans-serif;
+    font-size: 12pt;
+    color: darkgreen;
+    text-align: center;
+}
+header{
+    background-color: #beffa9;
+    font-family:"lucida console", sans-serif;
+}
+
+h1{
+    font-family:"papyrus","lucida console", sans-serif;
+    font-size: 28pt;
+    color: darkgreen;
+    text-align: left;
+    text-decoration-line: underline;
+    text-decoration-color: darkgreen;
+    font-weight: bold;
+}
+
+h2{
+    font-size: 24pt;
+    color: darkgreen;
+    text-align: right;
+}
+
+h3{
+    font-size: 18pt;
+    color: darkolivegreen;
+    text-align: center;
+}
+h4{
+    font-family:"lucida console", sans-serif;
+    font-size: 18pt;
+    color: darkolivegreen;
+}
+table{
+    width:100%;
+
+}
+th{
+    height:70px;
+    color:darkgreen;
+}
+
+
+.products{
+    background-color: #9fbda1;
+    text-align: left;
+    color: white;
+}
+footer{text-align:center}
+footer:hover{cursor:pointer}
+#impressum{color:white}
+.warenkorb{color:white;font-size: 18pt;text-align: right;background-color: darkolivegreen}
+
+#contentlist{
+    font-size: 15pt;
+}
